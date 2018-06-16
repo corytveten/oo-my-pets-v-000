@@ -163,6 +163,7 @@ class Owner
     @pets.each do |species, instaces|
       instances.each do |pet|
         pet.mood = "nervous"
+      end
     end
   end
 
