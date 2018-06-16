@@ -148,5 +148,5 @@ class Owner
       end
     end
   end
-  
+
 end
