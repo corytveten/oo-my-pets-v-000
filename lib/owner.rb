@@ -125,5 +125,8 @@ class Owner
     @pets[:cats] << Cat.new(cat_name)
   end
 
+  def buy_dog(dog_name)
+    @pets[:dogs] << og.new(dog_name)
+  end
 
 end
