@@ -160,7 +160,6 @@ class Owner
   end
 
   def sell_pets
-    @@all.clear
     @pets.collect do |pet|
       pet.mood = "nervous"
     end
