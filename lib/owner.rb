@@ -164,6 +164,7 @@ class Owner
       instances.each do |pet|
         pet.mood = "nervous"
       end
+      @pets.clear
     end
   end
 
