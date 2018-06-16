@@ -168,4 +168,8 @@ class Owner
     end
   end
 
+  def list_pets
+    @@all
+  end
+
 end
