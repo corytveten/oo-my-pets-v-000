@@ -130,10 +130,10 @@ class Owner
   end
 
   def walk_dogs
-    @pets.collect do |species, instances| 
+    @pets.collect do |species, instances|
       if species == dogs
-        instances.each do |dog| 
-          dog.mood = "happy" 
+        instances.each do |dog|
+          dog.mood = "happy"
       end
     end
   end
